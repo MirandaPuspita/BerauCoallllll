@@ -125,20 +125,6 @@ class PerizinanController extends Controller
         // foreach ($persyaratan1 as $syarat) {
         //     $sub_persyaratan = DB::table('sub_persyaratan')
         //         ->join('persyaratan1', 'sub_persyaratan.id_syarat', '=', 'persyaratan1.id_syarat')
-        //         ->select('sub_persyaratan.sub_syarat', 'persyaratan1.syarat')
-        //         ->get();
-        //     array_push($sub_persyaratan2, $sub_persyaratan);
-        // }
-
-        // return  response()->json($sub_persyaratan2);
-
-        // $id_sub_perizinan = $_POST['id_sub_perizinan'];
-        // $persyaratan1 = DB::table('persyaratan1')->select('syarat', 'id_sub_perizinan', 'id_syarat')->where('id_sub_perizinan', '=', $id_sub_perizinan)->get();
-        // $sub_persyaratan2 = array();
-
-        // foreach ($persyaratan1 as $syarat) {
-        //     $sub_persyaratan = DB::table('sub_persyaratan')
-        //         ->join('persyaratan1', 'sub_persyaratan.id_syarat', '=', 'persyaratan1.id_syarat')
         //         ->select('persyaratan1.syarat', 'sub_persyaratan.sub_syarat')
         //         ->get();
         //     array_push($sub_persyaratan2, $sub_persyaratan);
