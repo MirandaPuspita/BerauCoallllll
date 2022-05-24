@@ -180,7 +180,7 @@ h6 {
 # Header
 --------------------------------------------------------------*/
 #header {
-    background: rgba(0, 0, 0, 0.1);
+    background: rgba(0, 0, 0, 0.3);
     transition: all 0.5s;
     z-index: 997;
     height: 70px;
@@ -488,7 +488,7 @@ h6 {
     height: 80vh;
     overflow: hidden;
     position: relative;
-    background: url("../img/hero-bg.jpg") top center;
+    /* background: url("../img/hero-bg.jpg") top center; */
     background-size: cover;
     position: relative;
     margin-bottom: -90px;
@@ -1750,7 +1750,7 @@ section {
 --------------------------------------------------------------*/
 .breadcrumbs {
     padding: 15px 0;
-    background: #ecf6fe;
+    background: #ffffff;
     margin-top: 130px;
 }
 

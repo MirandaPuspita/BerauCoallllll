@@ -18,18 +18,15 @@
             <section id="services" class="services">
                 <div class="container" data-aos="fade-up">
 
-                    <div class="section-title">
+                    {{-- <div class="section-title">
                         <h2>Daftar & Informasi Perizinan</h2>
-                        {{-- <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit
-                            sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias
-                            ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p> --}}
-                    </div>
+                    </div> --}}
 
                     <div class="row">
                         <div class="col align-items-stretch mt-2 mt-md-0" data-aos="fade-up" data-aos-delay="200">
                             <div class="icon-box">
-                                <i class="bi bi-bar-chart"></i>
-                                <h5 class="ml-auto"><a href="#">Daftar Perizinan</a></h5>
+                                <i class=""></i>
+                                <h5 class="ml-auto"><a href="#">Form Permohonan Izin</a></h5>
                                 <hr>
                                 <form action="{{ url('/perizinan') }}" method="post" enctype="multipart/form-data"
                                     accept-charset="utf-8">
@@ -120,131 +117,7 @@
                     <h5 class="modal-title" id="staticBackdropLabel">SYARAT DAN KETENTUAN </h5>
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
-                <div class="modal-body">
-
-                    <table class="table">
-                        <thead>
-                            <tr>
-                                <th scope="col">No</th>
-                                <th scope="col">Nama Perizinan</th>
-                                <th scope="col">Syarat dan Ketentuan</th>
-                            </tr>
-                        </thead>
-                        <tbody class="persyaratan">
-                            <tr>
-                                <th scope="row">1</th>
-                                <td>Pengembangan atau Pembangunan Terminal Khusus</td>
-                                <td>1. Nomor Induk Berusaha (NIB)
-                                </td>
-                            </tr>
-                            <tr>
-                                <th scope="row"></th>
-                                <td></td>
-                                <td>2. Izin usaha dengan bidang usaha sebagaimana tercantum dala Peraturan Menteri
-                                    Perhubungan yang mengatur tentang Terminal Khusus dan TUK</td>
-                            </tr>
-                            <tr>
-                                <th scope="row"></th>
-                                <td></td>
-                                <td>3. Tanda bukti status kepemilikan hak atas tanah atau tanda bukti perjanjian pemanfaatan
-                                    tanah</td>
-                            </tr>
-                            <tr>
-                                <th scope="row"></th>
-                                <td></td>
-                                <td>4. Kajian teknis yang paling sedikit memuat:
-                                    a. Rencana alur keluar masuk Terminal Khusus
-                                    b. Kedalaman kolam Terminal Khusus
-                                    c. Rencana volume bongkar muat, dan frekuensi kunjungan kapal serta rencana ukuran
-                                    (tonase dan panjang) kapal terbesar yang akan sandar/tambat
-                                    d. Rintangan NavigasiPelayaran
-                                    e. Rencana kebutuhan Sarana Bantu NavigasiPelayaran</td>
-                            </tr>
-                            <tr>
-                                <th scope="row"></th>
-                                <td></td>
-                                <td>5. Rencana teknis fasilitas sandar/tambat yang paling sedikit memuat
-                                    a. Gambar denah, tampak, potongan dan ukuran (dimensi) serta jenis material konstruksi
-                                    b. Koordinat geografis minimal 4 (empat) titik yaitu 2 (dua) titik di sisi
-                                    dermaga/perairan dan 2 (dua) titik di darat
-                                    c. Peta Daerah Lingkungan Keija dan Daerah Lingkungan Kepentingan tertentu Terminal
-                                    Khusus
-                                    d. Peta situasi Terminal Khusus terhadap Instalasi/Bangunan lain di sekitarnya</td>
-                            </tr>
-                            <tr>
-                                <th scope="row"></th>
-                                <td></td>
-                                <td>6. Berita acara peninjauan dan evaluasi rencana pembangunan Tersus oleh Syahbandar pada
-                                    pelabuhan terdekat dan Distrik Navigasi Setempat yang paling sedikit memuat
-                                    a. Data fasilitas sandar/ tambat
-                                    b. Koordinat geografis minimal 4 (empat) titik yaitu 2 (dua) titik di sisi
-                                    dermaga/perairan dan 2 (dua) titik di darat
-                                    c. Rencana alur keluar masuk Terminal Khusus dan rencana penempatan Sarana Bantu
-                                    NavigasiPelayaran</td>
-                            </tr>
-                            <tr>
-                                <th scope="row"></th>
-                                <td></td>
-                                <td>7. Izin lingkungan sesuai ketentuan perundang-undangan</td>
-                            </tr>
-                        </tbody>
-                    </table>
-
-
-                    {{-- <table border="2" bordercolor="green">
-                        <thead>
-                            <tr>
-                                <th scope="col">No</th>
-                                <th scope="col">Nama Perizinan</th>
-                                <th scope="col">Syarat dan Ketentuan</th>
-                            </tr>
-                        </thead>
-                        <tbody id="persyaratan">
-                            <tr>
-                                <td>main Table row 1 column 1</td>
-                                <td>
-                                    <table border="2" bordercolor="blue">
-                                        <tr>
-                                            <td>inner Table row 1 column 1</td>
-                                        </tr>
-                                        <tr>
-                                            <td>inner Table row 2 column 1 </td>
-                                        </tr>
-                                        <tr>
-                                            <td>inner Table row 3 column 1 </td>
-                                        </tr>
-                                    </table>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>main Table row 1 column 1</td>
-                                <td>
-                                    <table border="2" bordercolor="blue">
-                                        <tr>
-                                            <td>inner Table row 1 column 1</td>
-                                        </tr>
-                                        <tr>
-                                            <td>inner Table row 2 column 1 </td>
-                                        </tr>
-                                        <tr>
-                                            <td>inner Table row 3 column 1 </td>
-                                        </tr>
-                                    </table>
-                                </td>
-                            </tr>
-                        </tbody>
-                    </table> --}}
-
-                    {{-- <table class="some-tab">
-                        <tr>
-                            <th>Name</th>
-                            <th>Description</th>
-                        </tr>
-                        <tr>
-                            <td id="Username">Admin</td>
-                            <td id="Description">STH STH STH!</td>
-                        </tr>
-                    </table> --}}
+                <div id="modal-body" class="modal-body">
 
                 </div>
                 <div class="modal-footer">
@@ -292,29 +165,29 @@
                 dataType: 'json',
                 success: function(data) {
                     $('.persyaratan').empty();
-                    $.each(data, function(key, name) {
-                        $('.persyaratan').append(new Option(name, key));
-                        // var something = document.getElementsByTagName('table');
-                        // var tableca = something[0];
-
-                        // var tr = document.createElement('tr');
-
-                        // var td1 = document.createElement('td');
-                        // var td2 = document.createElement('td');
-
-                        // var text1 = document.createTextNode('Text1');
-                        // var text2 = document.createTextNode('Text2');
-
-                        // td1.appendChild(text1);
-                        // td2.appendChild(text2);
-                        // tr.appendChild(td1);
-                        // tr.appendChild(td2);
-
-                        // tableca.appendChild(tr);
-                        // document.body.appendChild(tableca);
+                    var text = document.getElementById('modal-body')
+                    var table =
+                        '<table><thead><tr><th scope="col">No</th><th scope="col">Nama Perizinan</th><th scope="col">Syarat dan Ketentuan</th></tr></thead><tbody>'
+                    var nomor = 1
+                    var temp = ''
+                    $.each(data[0], function(key, name) {
+                        if (temp == name.syarat) {
+                            name.syarat = ''
+                            table +=
+                                `<tr><th></th><th>${name.syarat}</th><th>${name.sub_syarat}</th></tr>`
+                            nomor += 1
+                        } else {
+                            table +=
+                                `<tr><th>${nomor}</th><th>${name.syarat}</th><th>${name.sub_syarat}</th></tr>`
+                        }
+                        temp = name.syarat
                     });
+                    table += '</tbody></table>'
+                    text.innerHTML = table
+
                     console.log("ini perizinan");
                     console.log(data);
+                    console.log(data[0][0].id_syarat, data[0][0].sub_syarat);
                 }
             });
 

@@ -15,11 +15,11 @@
             <ul>
                 <li><a class="nav-link scrollto {{ request()->segment(1) ? '' : 'active' }}" href="/">Beranda</a></li>
                 <li><a class="nav-link scrollto {{ request()->segment(1) == 'sopperizinan' ? 'active' : '' }}"
-                        href="/sop-perizinan">SOP Perizinan</a></li>
+                        href="/sopperizinan">SOP Perizinan</a></li>
                 {{-- <li><a class="nav-link scrollto {{ request()->segment(1) == 'perizinan' ? 'active' : '' }}"
                         href="/perizinan">Daftar Perizinan</a></li> --}}
-                <li><a class="nav-link scrollto {{ request()->segment(1) == 'perizinan' ? 'active' : '' }}"
-                        href="/perizinan">Permohonan Izin</a></li>
+                <li><a class="nav-link scrollto {{ request()->segment(1) == 'permohonan' ? 'active' : '' }}"
+                        href="/permohonan">Permohonan Izin</a></li>
                 {{-- <li class="dropdown"><a href="#"
                         class="{{ in_array(request()->segment(1), ['#', 'perizinan']) ? 'active' : '' }}"><span>Daftar
                             Perizinan</span>

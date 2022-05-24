@@ -5,6 +5,7 @@ use App\Http\Controllers\GeoJsonController;
 use App\Http\Controllers\HubungikamiController;
 use App\Http\Controllers\LoginController;
 use App\Http\Controllers\PerizinanController;
+use App\Http\Controllers\PermohonanController;
 use App\Http\Controllers\PetaController;
 use App\Http\Controllers\RegisterController;
 use App\Http\Controllers\SopPerizinanController;
@@ -37,6 +38,7 @@ Route::get('/syaratketentuan', [SyaratKetentuanController::class, 'index']);
 Route::get('/syaratketentuan/sektor', [SyaratKetentuanController::class, 'sektor']);
 Route::get('/sektor', [SyaratKetentuanController::class, 'perizinan']);
 Route::post('/persyaratan', [PerizinanController::class, 'persyaratan']);
+Route::get('/permohonan', [PermohonanController::class, 'permohonan']);
 
 Route::get('/perizinan', [PerizinanController::class, 'index']);
 Route::get('/perizinan/sektor', [PerizinanController::class, 'sektor']);

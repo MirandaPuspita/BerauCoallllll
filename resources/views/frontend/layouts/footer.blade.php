@@ -43,19 +43,31 @@
                 </div>
 
                 <div class="col-lg-3 col-md-6 footer-contact">
-                    <h4>Contact Us</h4>
+                    <h4>Hubungi Kami</h4>
                     <p>
-                        Head Office PT Berau Coal <br>
-                        Jl. Pemuda No. 40<br>
-                        Tanjung Redeb 77311, Berau <br>
-                        Kalimantan Timur PO BOX 114<br> <br>
-                        <strong>Phone:</strong> +1 5589 55488 55<br>
-                        <strong>Email:</strong> info@example.com<br>
+                        <strong>PT Berau Coal </strong><br>
+                        Sinarmas MSIG Tower Lantai 10<br>
+                        Jln. Jend. Sudirman Kav. 21 RT 012 RW 001 <br>
+                        Kel. Karet, Kec. Setiabudi<br>
+                        Jakarta 12920 Indonesia<br>
+                        <strong>Telp:</strong> +6221-80613737<br>
+                        <strong>Fax:</strong> +6221-80613738<br>
                     </p>
-
                 </div>
 
-                <div class="col-lg-3 col-md-6 footer-info">
+                <div class="col-lg-3 col-md-6 footer-contact">
+                    <h4></h4>
+                    <br>
+                    <p>
+                        <strong>Head Office </strong><br>
+                        Jl. Pemuda No. 40, Tanjung Redeb<br>
+                        Berau 77311, Kalimantan Timur, PO BOX 114 <br>
+                        <strong>Telp:</strong> +62554 23400<br>
+                        <strong>Fax:</strong> +62554 23465<br>
+                    </p>
+                </div>
+
+                {{-- <div class="col-lg-3 col-md-6 footer-info">
                     <h3>About Anyar</h3>
                     <p>Cras fermentum odio eu feugiat lide par naso tierra. Justo eget nada terra videa magna derita
                         valies darta donna mare fermentum iaculis eu non diam phasellus.</p>
@@ -66,7 +78,7 @@
                         <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
                         <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
                     </div>
-                </div>
+                </div> --}}
 
             </div>
         </div>

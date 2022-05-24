@@ -211,7 +211,7 @@
                     <li style="padding: 4px;">
                         <label>
                             <div class="legend">
-                                <img src="{{ asset('frontend/images/ickuliner.png') }}" style="width: 24px">
+                                <img src="{{ asset('frontend/images/icolahan.png') }}" style="width: 24px">
                             </div>
                             <input data-layer="kuliner" type="checkbox" />
                             <span style="font-size: 12px">Titik WMP</span>
@@ -436,7 +436,7 @@
                         url: "/geojson/wmp"
                     }),
                 }),
-                style: createClusterStyle('/frontend/images/ickuliner.png', '#0090ff'),
+                style: createClusterStyle('/frontend/images/icolahan.png', '#0090ff'),
                 zIndex: 5,
             });
             map.addLayer(layer_titikwmp);

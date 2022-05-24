@@ -28,11 +28,16 @@
                             <div class="info">
                                 <div class="address">
                                     <i class="bi bi-geo-alt"></i>
-                                    <h4>Lokasi:</h4>
-                                    <p>Head Office PT Berau Coal
-                                        Jl. Pemuda No. 40
-                                        Tanjung Redeb 77311, Berau
-                                        Kalimantan Timur PO BOX 114</p>
+                                    <h4>PT Berau Coal</h4>
+                                    <p>Sinarmas MSIG Tower Lantai 10,
+                                        Jln. Jend. Sudirman Kav. 21 RT 012 RW 001,
+                                        Kel. Karet, Kec. Setiabudi,
+                                        Jakarta 12920 Indonesia</p>
+                                    <br>
+                                    <h4>Head Office</h4>
+                                    <p>Jl. Pemuda No. 40,
+                                        Berau Tanjung Redeb 77311,
+                                        Kalimantan Timur, PO BOX 114</p>
                                 </div>
 
                                 <div class="email">
@@ -43,10 +48,13 @@
 
                                 <div class="phone">
                                     <i class="bi bi-phone"></i>
-                                    <h4>Telp:</h4>
-                                    <p>(62-554) 23400 – (62-21) 7264 778</p>
-                                    <h4>Fax:</h4>
-                                    <p>(62-554) 23465 – (62-21) 7268 289</p>
+                                    <h4>PT Berau Coal</h4>
+                                    <p>Telp: +6221-80613737</p>
+                                    <p>Fax: +6221-80613738</p>
+                                    <br>
+                                    <h4>Head Office</h4>
+                                    <p>Telp: +62554 23400</p>
+                                    <p>Fax: +62554 23465</p>
                                 </div>
 
                                 {{-- <iframe

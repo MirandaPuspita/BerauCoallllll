@@ -9,28 +9,29 @@
     <!-- ======= Hero Section ======= -->
     <section id="hero" class="d-flex justify-cntent-center align-items-center">
         <div id="heroCarousel" data-bs-interval="5000" class="container carousel carousel-fade" data-bs-ride="carousel">
-
             <!-- Slide 1 -->
             <div class="carousel-item active">
                 <div class="carousel-container">
-                    <h2 class="animate__animated animate__fadeInDown"><span>DEPARTEMEN LICENSE PT BERAU COAL</span></h2>
+                    <img class="d-block w-100" src="{{ asset('frontend/images/1.jpeg') }}" alt="">
+                    {{-- <h2 class="animate__animated animate__fadeInDown"><span>DEPARTEMEN LICENSE PT BERAU COAL</span></h2>
                     <p class="animate__animated animate__fadeInUp">Ut velit est quam dolor ad a aliquid qui aliquid.
                         Sequi ea ut et est quaerat sequi nihil ut aliquam. Occaecati alias dolorem mollitia ut.
                         Similique ea voluptatem. Esse doloremque accusamus repellendus deleniti vel. Minus et tempore
                         modi architecto.</p>
-                    <a href="#about" class="btn-get-started animate__animated animate__fadeInUp scrollto">Read More</a>
+                    <a href="#about" class="btn-get-started animate__animated animate__fadeInUp scrollto">Read More</a> --}}
                 </div>
             </div>
 
             <!-- Slide 2 -->
             <div class="carousel-item">
                 <div class="carousel-container">
-                    <h2 class="animate__animated animate__fadeInDown">DEPARTEMEN LICENSE PT BERAU COAL</h2>
+                    <img class="d-block w-100" src="{{ asset('frontend/images/2.jpeg') }}" alt="">
+                    {{-- <h2 class="animate__animated animate__fadeInDown">DEPARTEMEN LICENSE PT BERAU COAL</h2>
                     <p class="animate__animated animate__fadeInUp">Ut velit est quam dolor ad a aliquid qui aliquid.
                         Sequi ea ut et est quaerat sequi nihil ut aliquam. Occaecati alias dolorem mollitia ut.
                         Similique ea voluptatem. Esse doloremque accusamus repellendus deleniti vel. Minus et tempore
                         modi architecto.</p>
-                    <a href="#about" class="btn-get-started animate__animated animate__fadeInUp scrollto">Read More</a>
+                    <a href="#about" class="btn-get-started animate__animated animate__fadeInUp scrollto">Read More</a> --}}
                 </div>
             </div>
 
