@@ -3,6 +3,7 @@
 use App\Http\Controllers\AdminController;
 use App\Http\Controllers\GeoJsonController;
 use App\Http\Controllers\HubungikamiController;
+use App\Http\Controllers\KonfirmasiDataController;
 use App\Http\Controllers\LoginController;
 use App\Http\Controllers\PerizinanController;
 use App\Http\Controllers\PermohonanController;
@@ -10,6 +11,7 @@ use App\Http\Controllers\PetaController;
 use App\Http\Controllers\RegisterController;
 use App\Http\Controllers\SopPerizinanController;
 use App\Http\Controllers\SyaratKetentuanController;
+use App\Http\Controllers\TambahDokumenController;
 use App\Http\Controllers\TestimoniController;
 use Illuminate\Support\Facades\Route;
 
@@ -38,10 +40,18 @@ Route::get('/syaratketentuan', [SyaratKetentuanController::class, 'index']);
 Route::get('/syaratketentuan/sektor', [SyaratKetentuanController::class, 'sektor']);
 Route::get('/sektor', [SyaratKetentuanController::class, 'perizinan']);
 Route::post('/persyaratan', [PerizinanController::class, 'persyaratan']);
+
 Route::get('/permohonan', [PermohonanController::class, 'permohonan']);
+Route::get('/tambahdokumen', [TambahDokumenController::class, 'tambahdokumen']);
+Route::get('/tambahdokumen/dokumen', [TambahDokumenController::class, 'dokumen']);
+// Route::get('/tambahdokumen/dokumen', [TambahDokumenController::class, 'input']);
+// Route::post('/tambahdokumen/form', [TambahDokumenController::class, 'inputform']);
+Route::get('/konfirmasidata', [KonfirmasiDataController::class, 'konfirmasidata']);
 
 Route::get('/perizinan', [PerizinanController::class, 'index']);
-Route::get('/perizinan/sektor', [PerizinanController::class, 'sektor']);
+Route::post('/perizinan/tambahpermohonan', [PerizinanController::class, 'input']);
+Route::get('/perizinan/form', [PerizinanController::class, 'inputform']);
+// Route::get('/perizinan/sektor', [PerizinanController::class, 'sektor']);
 Route::post('/sektor', [PerizinanController::class, 'perizinan']);
 
 Route::get('/sopperizinan', [SopPerizinanController::class, 'sopperizinan']);

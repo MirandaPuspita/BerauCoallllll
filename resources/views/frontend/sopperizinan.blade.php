@@ -26,7 +26,7 @@
             {{-- <ol>
                     <li><a href="index.html">Home</a></li>
                 </ol> --}}
-            <h1>Instruksi Kerja (IKA)</h1>
+            <h1>Instruksi Kerja (IK)</h1>
             <h6> 1. Pastikan PC/Laptop terkoneksi dengan internet </h6>
             <h6> 2. User dapat mengakses website https://………. dengan cara melakukan login,
                 Login menggunakan email dan password yang telah dibuat pada website https://…….

@@ -12,7 +12,7 @@
             <!-- Slide 1 -->
             <div class="carousel-item active">
                 <div class="carousel-container">
-                    <img class="d-block w-100" src="{{ asset('frontend/images/1.jpeg') }}" alt="">
+                    <img class="d-block" src="{{ asset('frontend/images/1.jpeg') }}" alt="">
                     {{-- <h2 class="animate__animated animate__fadeInDown"><span>DEPARTEMEN LICENSE PT BERAU COAL</span></h2>
                     <p class="animate__animated animate__fadeInUp">Ut velit est quam dolor ad a aliquid qui aliquid.
                         Sequi ea ut et est quaerat sequi nihil ut aliquam. Occaecati alias dolorem mollitia ut.
@@ -25,7 +25,7 @@
             <!-- Slide 2 -->
             <div class="carousel-item">
                 <div class="carousel-container">
-                    <img class="d-block w-100" src="{{ asset('frontend/images/2.jpeg') }}" alt="">
+                    <img class="d-block w-auto" src="{{ asset('frontend/images/6.jpg') }}" alt="">
                     {{-- <h2 class="animate__animated animate__fadeInDown">DEPARTEMEN LICENSE PT BERAU COAL</h2>
                     <p class="animate__animated animate__fadeInUp">Ut velit est quam dolor ad a aliquid qui aliquid.
                         Sequi ea ut et est quaerat sequi nihil ut aliquam. Occaecati alias dolorem mollitia ut.
@@ -38,12 +38,13 @@
             <!-- Slide 3 -->
             <div class="carousel-item">
                 <div class="carousel-container">
-                    <h2 class="animate__animated animate__fadeInDown">DEPARTEMEN LICENSE PT BERAU COAL</h2>
+                    <img class="d-block w-auto" src="{{ asset('frontend/images/9.jpg') }}" alt="">
+                    {{-- <h2 class="animate__animated animate__fadeInDown">DEPARTEMEN LICENSE PT BERAU COAL</h2>
                     <p class="animate__animated animate__fadeInUp">Ut velit est quam dolor ad a aliquid qui aliquid.
                         Sequi ea ut et est quaerat sequi nihil ut aliquam. Occaecati alias dolorem mollitia ut.
                         Similique ea voluptatem. Esse doloremque accusamus repellendus deleniti vel. Minus et tempore
                         modi architecto.</p>
-                    <a href="#about" class="btn-get-started animate__animated animate__fadeInUp scrollto">Read More</a>
+                    <a href="#about" class="btn-get-started animate__animated animate__fadeInUp scrollto">Read More</a> --}}
                 </div>
             </div>
 
@@ -69,8 +70,7 @@
                         <div class="icon-box">
                             <div class="icon"><i class="bx bxl-dribbble"></i></div>
                             <h4 class="title"><a href="">Efektif</a></h4>
-                            <p class="description">Voluptatum deleniti atque corrupti quos dolores et quas molestias
-                                excepturi sint occaecati cupiditate non provident</p>
+                            <p class="description">Tanggap terhadap tantangan baru, proaktif menemukan cara inovatif</p>
                         </div>
                     </div>
 
@@ -79,8 +79,8 @@
                         <div class="icon-box">
                             <div class="icon"><i class="bx bx-file"></i></div>
                             <h4 class="title"><a href="">Efisien</a></h4>
-                            <p class="description">Duis aute irure dolor in reprehenderit in voluptate velit esse
-                                cillum dolore eu fugiat nulla pariatur</p>
+                            <p class="description">Tantangan menjadi alat untuk berinovasi, berpikir kreatif, dan maju
+                            </p>
                         </div>
                     </div>
 
@@ -89,8 +89,8 @@
                         <div class="icon-box">
                             <div class="icon"><i class="bx bx-tachometer"></i></div>
                             <h4 class="title"><a href="">Transparan</a></h4>
-                            <p class="description">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
-                                officia deserunt mollit anim id est laborum</p>
+                            <p class="description">Selalu terbuka, fleksibel, dan mampu beradaptasi dengan tantangan baru
+                            </p>
                         </div>
                     </div>
 
@@ -99,8 +99,8 @@
                         <div class="icon-box">
                             <div class="icon"><i class="bx bx-layer"></i></div>
                             <h4 class="title"><a href="">Akuntabel</a></h4>
-                            <p class="description">At vero eos et accusamus et iusto odio dignissimos ducimus qui
-                                blanditiis praesentium voluptatum deleniti atque</p>
+                            <p class="description">Memastikan setiap tindakan yang diambil dapat dipertanggungjawabkan
+                                sesuai dengan peraturan perundang-undangan yang berlaku</p>
                         </div>
                     </div>
 

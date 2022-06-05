@@ -115,13 +115,14 @@
             .layer-list-container {
                 background: white;
                 position: absolute;
-                top: 0.5em;
-                left: 0.5em;
+                top: 8.5rem;
+                left: 0.5rem;
                 padding: 8px;
                 border-radius: 4px;
                 width: 230px;
-                height: 470px;
-                overflow-y: auto
+                height: 390px;
+                overflow-y: auto;
+                z-index: 99
             }
 
             .layer-list-toggle {
@@ -213,14 +214,32 @@
                             <div class="legend">
                                 <img src="{{ asset('frontend/images/icolahan.png') }}" style="width: 24px">
                             </div>
-                            <input data-layer="kuliner" type="checkbox" />
+                            <input data-layer="titikwmp" type="checkbox" />
                             <span style="font-size: 12px">Titik WMP</span>
+                        </label>
+                    </li>
+                    <li style="padding: 4px;">
+                        <label>
+                            <div class="legend">
+                                <img src="{{ asset('frontend/images/icolahan.png') }}" style="width: 24px">
+                            </div>
+                            <input data-layer="titikkampung" type="checkbox" />
+                            <span style="font-size: 12px">Titik Kampung</span>
                         </label>
                     </li>
                     <li style="padding: 4px;">
                         <label>
                             <input data-layer="batas_admin" type="checkbox" />
                             <span style="font-size: 12px">Bondary Konsesi</span>
+                        </label>
+                        <div class="legend">
+                            <img src="{{ url('frontend/images/legenda_admin.png') }}" style="width: 100%" alt="">
+                        </div>
+                    </li>
+                    <li style="padding: 4px;">
+                        <label>
+                            <input data-layer="pembagian_konsesi" type="checkbox" />
+                            <span style="font-size: 12px">Pembagian Konsesi</span>
                         </label>
                         <div class="legend">
                             <img src="{{ url('frontend/images/legenda_admin.png') }}" style="width: 100%" alt="">
@@ -441,6 +460,21 @@
             });
             map.addLayer(layer_titikwmp);
 
+            const layer_titikkampung = new ol.layer.Vector({
+                properties: {
+                    nama: 'Titik Kampung'
+                },
+                source: new ol.source.Cluster({
+                    source: new ol.source.Vector({
+                        format: new ol.format.GeoJSON(),
+                        url: "/geojson/kampung"
+                    }),
+                }),
+                style: createClusterStyle('/frontend/images/icolahan.png', '#0090ff'),
+                zIndex: 5,
+            });
+            map.addLayer(layer_titikkampung);
+
             const layer_batas_admin = new ol.layer.Vector({
                 properties: {
                     nama: 'Batas Admin',
@@ -464,9 +498,32 @@
             });
             map.addLayer(layer_batas_admin);
 
+            const layer_pembagian_konsesi = new ol.layer.Vector({
+                properties: {
+                    nama: 'Pembagian Konsesi',
+                    disableInfo: true
+                },
+                source: new ol.source.Vector({
+                    format: new ol.format.GeoJSON(),
+                    url: "/geojson/pembagian_konsesi"
+                }),
+                style: new ol.style.Style({
+                    fill: new ol.style.Fill({
+                        color: 'rgba(255,255,255,0.3)'
+                    }),
+                    stroke: new ol.style.Stroke({
+                        width: 1,
+                        color: '#000000',
+                        lineDash: [8, 4]
+                    })
+                }),
+                zIndex: 1
+            });
+            map.addLayer(layer_pembagian_konsesi);
+
             const layer_rtrwk = new ol.layer.Vector({
                 properties: {
-                    nama: 'RTRWK Berau 2016-2036',
+                    nama: 'RTRWK',
                     disableInfo: true
                 },
                 source: new ol.source.Vector({
@@ -492,12 +549,14 @@
                 // peternakan: layer_peternakan,
                 perizinanbaru: layer_perizinanbaru,
                 titikwmp: layer_titikwmp,
+                titikkampung: layer_titikkampung,
                 // kuliner: layer_kuliner,
                 // kerajinan: layer_kerajinan,
                 // jasa: layer_jasa,
                 // perdagangan: layer_perdagangan,
                 rtrwk: layer_rtrwk,
                 batas_admin: layer_batas_admin,
+                pembagian_konsesi: layer_pembagian_konsesi,
                 // smce: layer_smce,
             };
 
